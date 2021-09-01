@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.background-image {
+	background-image: url(/image/fundo.jpg);
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+.image {
+	background-image: url(/image/capa.png);
+	background-size: cover;
+	position: absolute;
+	width: 184px;
+	height: 267px;
+	top: 542px;
+	left: 362px;
+}
+.background-image h3 {
+	color: white;
+	position: absolute;
+	width: 251px;
+	height: 24px;
+	left: 833px;
+	top: 98px;
+	font-size: 30px;
+	font-family: Lobster;
+}
+.background-image h1 {
+	color: white;
+	position: absolute;
+	left: 825px;
+	bottom: 660px;
+	font-size: 129px;
+}
+.background-image p {
+	color: white;
+	font-family: Lobster;
+	position: absolute;
+	width: 722px;
+	height: 92px;
+	top: 537px;
+	left: 698px;
+	font-size: 20px;
+}
+.clock img {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	top: 708px;
+	bottom: 200px;
+	left: 663px;
+}
+.timetext p {
+	position: absolute;
+	width: 75px;
+	height: 29px;
+	left: 698px;
+	top: 707px;
+	font-family: B612;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 25px;
+	color: #ffffff;
+}
+.yellow-star {
+	display: flex;
+	justify-content: center;
+}
+.yellow-star img {
+	position: relative;
+	bottom: 270px;
+	left: 105px;
+	padding: 5px;
+	width: 37px;
+}
+.year-text p {
+	position: absolute;
+	width: 63px;
+	height: 29px;
+	left: 1399px;
+	top: 707px;
+	font-family: B612;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	color: #ffffff;
+}
+.watch-now {
+	box-shadow: inset 0px -3px 7px 0px #29bbff;
+	background: linear-gradient(to bottom, #2e0afa 5%, #0688fa 100%);
+	background-color: #2e0afa;
+	border-radius: 3px;
+	border: 1px solid #0b0e07;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	padding: 19px 23px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #263666;
+	position: absolute;
+	left: 641px;
+	bottom: 120px;
+}
+.trailer-button {
+	background: linear-gradient(to bottom, #000000 5%, #000000 100%);
+	background-color: #000000;
+	border-radius: 3px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	padding: 19px 23px;
+	text-decoration: none;
+	position: absolute;
+	left: 838px;
+	bottom: 121px;
+}
